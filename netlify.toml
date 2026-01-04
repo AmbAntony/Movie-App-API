@@ -7,5 +7,5 @@
 [[plugins]]
   package = "@netlify/plugin-nextjs"
 
-[context.production.environment]
-  MOVIE_API_KEY = ""
+[build.environment]
+  MOVIE_API_KEY = "bb03112da0mshe4a71aaff12e344p1af12cjsn61570148f768"
