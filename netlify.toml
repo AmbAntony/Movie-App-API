@@ -1,11 +1,10 @@
 [build]
-  base = "movie-app"
-  command = "npm run build"
-  publish = ".netlify/output/public"
-  functions = ".netlify/functions"
+base = "movie-app"
+command = "npm run build"
 
 [[plugins]]
-  package = "@netlify/plugin-nextjs"
+package = "@netlify/plugin-nextjs"
 
 [build.environment]
-  MOVIE_API_KEY = "bb03112da0mshe4a71aaff12e344p1af12cjsn61570148f768"
+MOVIE_API_KEY=bb03112da0mshe4a71aaff12e344p1af12cjsn61570148f768
+
