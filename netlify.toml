@@ -1,6 +1,8 @@
 [build]
 base = "movie-app"
 command = "npm run build"
+publish = ".netlify/output/public"
+functions = ".netlify/functions"
 
 [[plugins]]
 package = "@netlify/plugin-nextjs"
