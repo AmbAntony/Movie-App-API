@@ -6,5 +6,5 @@ command = "npm run build"
 package = "@netlify/plugin-nextjs"
 
 [build.environment]
-MOVIE_API_KEY=bb03112da0mshe4a71aaff12e344p1af12cjsn61570148f768
+MOVIE_API_KEY="bb03112da0mshe4a71aaff12e344p1af12cjsn61570148f768"
 
